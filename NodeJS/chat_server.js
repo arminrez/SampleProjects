@@ -4,7 +4,7 @@ fs = require('fs');
 
 var server = http.createServer(function (req, res) {
 
-	var path = url.parse(req.url).pathname; 
+    var path = url.parse(req.url).pathname; 
 	
     switch (path){
 	case '/':
